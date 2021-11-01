@@ -1,9 +1,18 @@
 #!/usr/bin/env node
 
-const clearConsole = require("clear-any-console");
+const welcome = require("cli-welcome");
+const packageJson = require("./package.json");
 
-// Clears the console
-clearConsole();
+welcome({
+  title: packageJson.name,
+  tagLine: "Howdy, nice to meet ya!",
+  description: packageJson.description,
+  version: packageJson.version,
+  bgColor: "#f7eaf4",
+  color: "#000000",
+  bold: true,
+  clear: false,
+});
 
 console.log(`
 Camila Belo
