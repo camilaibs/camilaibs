@@ -1,0 +1,26 @@
+{
+  "name": "camilaibs",
+  "version": "1.0.0",
+  "description": "Get to know camilaibs via npm. Just run `npx camilaibs`",
+  "main": "index.js",
+  "bin": {
+    "camilaibs": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilaibs/camilaibs.git"
+  },
+  "keywords": [
+    "camilaibs",
+    "cli"
+  ],
+  "author": "Camila Belo <camilaibs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilaibs/camilaibs/issues"
+  },
+  "homepage": "https://github.com/camilaibs/camilaibs#readme"
+}
